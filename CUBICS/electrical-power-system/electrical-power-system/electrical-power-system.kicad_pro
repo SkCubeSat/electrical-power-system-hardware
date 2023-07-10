@@ -326,6 +326,34 @@
     [
       "5987de0a-a772-40e3-9e89-af52950d87bb",
       ""
+    ],
+    [
+      "3fdf0a9f-e998-437e-a003-3c72776eceb4",
+      "Buck Converters"
+    ],
+    [
+      "c9d0a0c7-d64e-4290-bece-4e398e05ebd5",
+      "Inhibits"
+    ],
+    [
+      "a29c39c3-f61d-41a4-b663-9cd24fc958f0",
+      "Micorcontroller"
+    ],
+    [
+      "e5c3ee9c-5e4c-4de6-8c31-f74052c75208",
+      "Cell"
+    ],
+    [
+      "11f64c1f-4e3a-43af-955a-2cc9ad1bb913",
+      "Cell1"
+    ],
+    [
+      "1050c496-d351-44fc-93a6-5fafabe05a53",
+      "Cell2"
+    ],
+    [
+      "090c471d-ae9a-419e-9e28-43c9dc95aae5",
+      "Cell3"
     ]
   ],
   "text_variables": {}
