@@ -1,0 +1,69 @@
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.2
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x0000021874D7AE50>
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with R29 as a reference
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'R29'
+Located on: ['Cell']
+With filenames: ['cell.kicad_sch']
+With sheet_id:['Cell']
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('R33', ['Cell1']), ('R37', ['Cell2']), ('R41', ['Cell3']), ('R29', ['Cell'])]
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Cell', file:'cell.kicad_sch'
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Cell1'], ['Cell2'], ['Cell3']]
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['Cell']
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(1689, 154)
+07-22 15:32:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1327, 154)
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Cell', file:'cell.kicad_sch'
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Cell1'], ['Cell2'], ['Cell3']]
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['Cell1'], ['Cell2'], ['Cell3']]
+on level: ['Cell']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+07-22 15:33:14 root 340:updating GUI message: 'Preparing for replication'
+07-22 15:33:14 root 345:updating GUI with: 0
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+07-22 15:33:14 root 345:updating GUI with: 50
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+07-22 15:33:14 root 340:updating GUI message: 'Replicating footprints'
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Cell1']
+07-22 15:33:14 root 345:updating GUI with: 8
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Cell2']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Cell3']
+07-22 15:33:14 root 340:updating GUI message: 'Replicating tracks'
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Cell1']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Cell1'] :[('Net-(Q4-G)', 'Net-(Q6-G)'), ('', ''), ('-BATT', '-BATT'), ('Net-(BT1--)', 'Net-(BT2--)'), ('+BATT', '+BATT'), ('unconnected-(U7-NC-Pad1)', 'unconnected-(U8-NC-Pad1)'), ('Net-(Q4-D_1)', 'Net-(Q6-D_1)'), ('Net-(U7-BAT)', 'Net-(U8-BAT)'), ('Net-(U7-V-)', 'Net-(U8-V-)'), ('Net-(Q5-G)', 'Net-(Q7-G)')]
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Cell2']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Cell2'] :[('Net-(Q4-D_1)', 'Net-(Q8-D_1)'), ('Net-(BT1--)', 'Net-(BT3--)'), ('unconnected-(U7-NC-Pad1)', 'unconnected-(U9-NC-Pad1)'), ('', ''), ('-BATT', '-BATT'), ('+BATT', '+BATT'), ('Net-(U7-V-)', 'Net-(U9-V-)'), ('Net-(Q4-G)', 'Net-(Q8-G)'), ('Net-(U7-BAT)', 'Net-(U9-BAT)'), ('Net-(Q5-G)', 'Net-(Q9-G)')]
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Cell3']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Cell3'] :[('Net-(Q4-G)', 'Net-(Q10-G)'), ('', ''), ('-BATT', '-BATT'), ('+BATT', '+BATT'), ('Net-(Q5-G)', 'Net-(Q11-G)'), ('Net-(U7-V-)', 'Net-(U10-V-)'), ('Net-(U7-BAT)', 'Net-(U10-BAT)'), ('unconnected-(U7-NC-Pad1)', 'unconnected-(U10-NC-Pad1)'), ('Net-(Q4-D_1)', 'Net-(Q10-D_1)'), ('Net-(BT1--)', 'Net-(BT4--)')]
+07-22 15:33:14 root 340:updating GUI message: 'Replicating zones'
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Cell1']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Cell1'] :[('Net-(Q4-G)', 'Net-(Q6-G)'), ('', ''), ('-BATT', '-BATT'), ('Net-(BT1--)', 'Net-(BT2--)'), ('+BATT', '+BATT'), ('unconnected-(U7-NC-Pad1)', 'unconnected-(U8-NC-Pad1)'), ('Net-(Q4-D_1)', 'Net-(Q6-D_1)'), ('Net-(U7-BAT)', 'Net-(U8-BAT)'), ('Net-(U7-V-)', 'Net-(U8-V-)'), ('Net-(Q5-G)', 'Net-(Q7-G)')]
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Cell2']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Cell2'] :[('Net-(Q4-D_1)', 'Net-(Q8-D_1)'), ('Net-(BT1--)', 'Net-(BT3--)'), ('unconnected-(U7-NC-Pad1)', 'unconnected-(U9-NC-Pad1)'), ('', ''), ('-BATT', '-BATT'), ('+BATT', '+BATT'), ('Net-(U7-V-)', 'Net-(U9-V-)'), ('Net-(Q4-G)', 'Net-(Q8-G)'), ('Net-(U7-BAT)', 'Net-(U9-BAT)'), ('Net-(Q5-G)', 'Net-(Q9-G)')]
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Cell3']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Cell3'] :[('Net-(Q4-G)', 'Net-(Q10-G)'), ('', ''), ('-BATT', '-BATT'), ('+BATT', '+BATT'), ('Net-(Q5-G)', 'Net-(Q11-G)'), ('Net-(U7-V-)', 'Net-(U10-V-)'), ('Net-(U7-BAT)', 'Net-(U10-BAT)'), ('unconnected-(U7-NC-Pad1)', 'unconnected-(U10-NC-Pad1)'), ('Net-(Q4-D_1)', 'Net-(Q10-D_1)'), ('Net-(BT1--)', 'Net-(BT4--)')]
+07-22 15:33:14 root 340:updating GUI message: 'Replicating text'
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Cell1']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Cell2']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Cell3']
+07-22 15:33:14 root 340:updating GUI message: 'Replicating drawings'
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Cell1']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Cell2']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Cell3']
+07-22 15:33:14 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
